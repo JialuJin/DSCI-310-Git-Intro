@@ -5,3 +5,4 @@ Intro Git Demo
 - `git status`: tells you what is going on
 - `git add <FILE>`: add the <FILE>s to the staging area
 - `git commit`: create the commit(aka snapshot)
+    - `git commit -m <"message">`: add a short message of what you have changed
