@@ -10,3 +10,5 @@ Intro Git Demo
     - e.g. `git push origin main`
 - `git pull <where><what>`: take remote commits on `<what>`, and pull from `<where>`
     - e.g. `git pull origin main`
+    
+- `git push origin main`: sends conde from branch `main` local computer to the remote `origin`
