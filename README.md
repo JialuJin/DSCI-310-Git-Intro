@@ -6,3 +6,5 @@ Intro Git Demo
 - `git add <FILE>`: add the <FILE>s to the staging area
 - `git commit`: create the commit(aka snapshot)
     - `git commit -m <"message">`: add a short message of what you have changed
+    
+- `git push origin main`: sends conde from branch `main` local computer to the remote `origin`
