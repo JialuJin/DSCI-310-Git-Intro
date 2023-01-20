@@ -13,6 +13,7 @@ Intro Git Demo
     
 - `git push origin main`: sends conde from branch `main` local computer to the remote `origin`
 
+- `git log --oneline --graph --all`: shows you all your history
 
 ## Branches
 
@@ -21,3 +22,9 @@ Intro Git Demo
     - `git checkout <name>`: older way to move to branch
 - `git switch -c <name>`: create a branch and move it in 1 command
     - `git checkout -b <name>`: same thing using `checkout`
+
+### Cleanup process
+
+1. delete branch pull request in github
+2. `git fetch --prune`: update references to deleted branches on the remote
+3. `git branch -d <name>`: delete local branch `<name>`
