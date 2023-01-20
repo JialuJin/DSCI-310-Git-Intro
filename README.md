@@ -12,3 +12,10 @@ Intro Git Demo
     - e.g. `git pull origin main`
     
 - `git push origin main`: sends conde from branch `main` local computer to the remote `origin`
+
+
+## branches
+
+- `git branch <name>`: create a branch named <branch> whereever you are (`HEAD`)
+- `git switch <name>`: go to that branch
+    - `git checkout <name>`: older way to move to branch
