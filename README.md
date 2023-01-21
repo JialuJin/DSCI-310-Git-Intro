@@ -17,14 +17,22 @@ Intro Git Demo
 
 ## Branches
 
+1. 
 - `git branch <name>`: create a branch named <branch> whereever you are (`HEAD`)
 - `git switch <name>`: go to that branch
     - `git checkout <name>`: older way to move to branch
+###### OR
 - `git switch -c <name>`: create a branch and move it in 1 command
     - `git checkout -b <name>`: same thing using `checkout`
 
-### Cleanup process
+2. edit -> add -> commit -> `git push origin <branch_name>`: sends conde from branch `branch_name` local computer to the remote `origin`
+3. go to github page -> click "compare & pull request" to open a pull reuqest
+4. edit the text editor to summarize what has been done & click "create pull request"
+5. (if there is anything that you want to edit or change): go and change it -> add -> commit -> push to <branch_name>
+6. go to github page -> click "Merge pull request" -> click "Delete branch"
+7. `git switch main` -> `git pull origin main`: synchronize work from GitHub to local computer
 
-1. delete branch pull request in github
-2. `git fetch --prune`: update references to deleted branches on the remote
-3. `git branch -d <name>`: delete local branch `<name>`
+
+### Cleanup process
+1. `git fetch --prune`: update references to deleted branches on the remote
+2. `git branch -d <name>`: delete local branch `<branch_name>`
